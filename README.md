@@ -1,37 +1,60 @@
-👋 Hi there, I’m Cristopher Granadino
+<h2 align="left">Hi 👋! My name is Snaider Flores</h2>
 
-🎓 I’m a Systems Engineering student passionate about technology, data organization, and building efficient web solutions.
-💼 Currently working on projects focused on data management systems and frontend development using React, Next.js, and Tailwind CSS.
-💬 I’m bilingual (Spanish / English) and have over 2 years of customer service experience, which has strengthened my communication, teamwork, and problem-solving skills.
+###
 
-🧠 About Me
-🔹 I’m developing a CMI (Information Management System) to optimize the documentation process at my university.
-🔹 Experienced with tools like Zoho Desk, Google Workspace, and Microsoft Office for organizing and processing client and academic data.
-🔹 Focused on clean, efficient, and well-documented code.
-🔹 Open to learning new technologies and collaborating on meaningful projects.
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Snaider777&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Snaider777&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
 
-💻 Tech Stack
-Frontend:
-HTML · CSS · JavaScript · React · Next.js · Tailwind CSS
+###
 
-Backend
-C++ · Java
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="30" alt="azure logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="30" alt="canva logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="cplusplus logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30" alt="figma logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="30" alt="jira logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" alt="nextjs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" height="30" alt="sequelize logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="30" alt="tailwindcss logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" height="30" alt="trello logo"  />
+</div>
 
-Tools & Systems:
-Git / GitHub · Zoho Desk · Google Sheets / Docs · MS Office
+###
 
-Languages:
-🇪🇸 Spanish (Native) | 🇺🇸 English (Fluent)
+<br clear="both">
 
-🚀 Current Projects
-📁 CMI Documentation System – A web-based platform that allows users to access and manage institutional data from any device.
-🌐 Portfolio Website – Built with React, Next.js, and Tailwind CSS to showcase my professional journey and projects.
+<img src="https://raw.githubusercontent.com/Snaider777/Snaider777/output/snake.svg" alt="Snake animation" />
 
-🌟 Goals
-Expand my knowledge in data processing, system integration, and automation.
-Continue improving my frontend development and project management skills.
-Contribute to open-source projects and collaborate with developers around the world.
-
-📫 Let’s Connect
-💼 LinkedIn
- https://www.linkedin.com/in/snaider-granadino-977126262/
+###
