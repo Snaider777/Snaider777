@@ -1,9 +1,20 @@
-name: Generate Snake
+name: Generate profile cards
+
+# Builds every image the profile README shows (snake, stats, top languages)
+# and publishes them together to the `output` branch.
+# All cards must be generated in this single workflow: the publish step
+# replaces the whole `output` branch, so a second workflow would wipe them.
 
 on:
   schedule: # Ejecuta una vez al día
     - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/snake.yml"]
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -11,12 +22,40 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Generate Snake animation
         uses: Platane/snk@v3
         with:
-          github_user_name: Snaider777
-          outputs: dist/snake.svg
-      - name: Push Snake animation to output branch
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      # STATS_TOKEN is an optional read-only personal access token stored as a
+      # repository secret. With it the cards count private repositories (totals
+      # and languages only, never names). Without it they fall back to public data.
+      # The action is pinned to a commit because it receives that token.
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&rank_icon=github&theme=dracula
+          path: dist/stats.svg
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&card_width=320&theme=dracula
+          path: dist/top-langs.svg
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      # Runs only if every card above succeeded, so a failed API call never
+      # replaces good cards with an error image.
+      - name: Push cards to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

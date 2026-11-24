@@ -1,60 +1,49 @@
-<h2 align="left">Hi 👋! My name is Snaider Flores</h2>
+<h1 align="center">Hi, I'm Snaider 👋</h1>
+<p align="center"><b>Full stack developer</b> building web and Android apps</p>
 
-###
+## About me
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Snaider777&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Snaider777&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
+- 💻 I build web applications with **React, Next.js and Node.js**, and Android apps with **Kotlin and Java**.
+- 🗄️ I design and work with relational databases (**MySQL**) and ORMs like **Sequelize**.
+- 🎨 I like taking a product from the design in **Figma** to a working, deployed app.
+- 🔒 Most of my day to day work lives in **private repositories** (company and client projects). The stats below include those contributions as totals only, so no code or repository names are shown.
 
-###
+<!--
+Optional lines, remove the comment marks to show them:
+- 🌱 Currently learning ...
+- 📫 Reach me on LinkedIn: https://www.linkedin.com/in/your-profile
+-->
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="30" alt="azure logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="30" alt="canva logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30" alt="figma logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="30" alt="jira logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" height="30" alt="sequelize logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="30" alt="tailwindcss logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" height="30" alt="trello logo"  />
-</div>
+## Tech stack
 
-###
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,html,css,tailwind&perline=8" alt="JavaScript, TypeScript, React, Next.js, Node.js, HTML, CSS, Tailwind CSS" />
+  <br />
+  <img src="https://skillicons.dev/icons?i=java,kotlin,androidstudio,cpp,cs,mysql,sequelize,azure&perline=8" alt="Java, Kotlin, Android Studio, C++, C#, MySQL, Sequelize, Azure" />
+  <br />
+  <img src="https://skillicons.dev/icons?i=git,github,figma,vscode&perline=8" alt="Git, GitHub, Figma, VS Code" />
+</p>
 
-<br clear="both">
+Also comfortable with **Jira**, **Trello** and **Canva** for planning and design work.
 
-<img src="https://raw.githubusercontent.com/Snaider777/Snaider777/output/snake.svg" alt="Snake animation" />
+## GitHub activity
 
-###
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Snaider777/Snaider777/output/stats.svg" height="170" alt="GitHub stats including private contributions" />
+  <img src="https://raw.githubusercontent.com/Snaider777/Snaider777/output/top-langs.svg" height="170" alt="Most used languages including private repositories" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Snaider777&theme=dracula&hide_border=false" alt="Contribution streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Snaider777&theme=dracula&area=true&hide_border=false" width="100%" alt="Contribution activity graph" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Snaider777/Snaider777/output/snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/Snaider777/Snaider777/output/snake.svg" width="100%" alt="Snake eating my contribution graph" />
+  </picture>
+</p>
