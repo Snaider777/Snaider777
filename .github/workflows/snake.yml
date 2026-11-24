@@ -23,14 +23,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate Snake animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
-
       # STATS_TOKEN is an optional read-only personal access token stored as a
       # repository secret. With it the cards count private repositories (totals
       # and languages only, never names). Without it they fall back to public data.
@@ -52,6 +44,16 @@ jobs:
           path: dist/top-langs.svg
           token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: true
+
+      # Keep this after the stats cards: snk runs in a Docker container as root,
+      # so if it created dist/ first the cards above could not write into it.
+      - name: Generate Snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
 
       # Runs only if every card above succeeded, so a failed API call never
       # replaces good cards with an error image.
